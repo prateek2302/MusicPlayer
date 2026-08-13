@@ -1,0 +1,42 @@
+export const tracks = [
+  {
+    id: '1',
+    url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3',
+    title: 'Midnight City Lights',
+    artist: 'Neon Dreams',
+    artwork: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=500',
+    duration: 331,
+  },
+  {
+    id: '2',
+    url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3',
+    title: 'Analog Horizons',
+    artist: 'Kilo & Co',
+    artwork: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=500',
+    duration: 428,
+  },
+  {
+    id: '3',
+    url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3',
+    title: 'Static Bloom',
+    artist: 'Luna Phase',
+    artwork: 'https://images.unsplash.com/photo-1496293455970-f8581aae0e3b?w=500',
+    duration: 302,
+  },
+  {
+    id: '4',
+    url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3',
+    title: 'Circuit Love',
+    artist: 'VHS Ghost',
+    artwork: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=500',
+    duration: 367,
+  },
+  {
+    id: '5',
+    url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3',
+    title: 'Deep Archive',
+    artist: 'Marlboro Nights',
+    artwork: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=500',
+    duration: 295,
+  },
+];

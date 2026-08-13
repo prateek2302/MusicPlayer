@@ -1,0 +1,18 @@
+current directory: /Users/prateek/Downloads/MusicPlayer/vendor/bundle/ruby/3.3.0/gems/nkf-0.3.0/ext/nkf
+/opt/homebrew/opt/ruby@3.3/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/prateek/Downloads/MusicPlayer/vendor/bundle/ruby/3.3.0/gems/nkf-0.3.0/ext/nkf
+make -j2 DESTDIR\= sitearchdir\=./.gem.20260810-67016-g97uqx sitelibdir\=./.gem.20260810-67016-g97uqx clean
+
+current directory: /Users/prateek/Downloads/MusicPlayer/vendor/bundle/ruby/3.3.0/gems/nkf-0.3.0/ext/nkf
+make -j2 DESTDIR\= sitearchdir\=./.gem.20260810-67016-g97uqx sitelibdir\=./.gem.20260810-67016-g97uqx
+compiling nkf.c
+linking shared-object nkf.bundle
+
+current directory: /Users/prateek/Downloads/MusicPlayer/vendor/bundle/ruby/3.3.0/gems/nkf-0.3.0/ext/nkf
+make -j2 DESTDIR\= sitearchdir\=./.gem.20260810-67016-g97uqx sitelibdir\=./.gem.20260810-67016-g97uqx install
+/usr/bin/install -c -m 0755 nkf.bundle ./.gem.20260810-67016-g97uqx
+
+current directory: /Users/prateek/Downloads/MusicPlayer/vendor/bundle/ruby/3.3.0/gems/nkf-0.3.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20260810-67016-g97uqx sitelibdir\=./.gem.20260810-67016-g97uqx clean
