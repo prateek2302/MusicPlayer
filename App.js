@@ -5,37 +5,41 @@ import PlayerScreen from './src/screens/PlayerScreen';
 
 export default function App() {
   const [isReady, setIsReady] = useState(false);
+  const [setupError, setSetupError] = useState(null);
 
   useEffect(() => {
     async function setup() {
-      // Request notification permission for Android 13+
-      if (Platform.OS === 'android' && Platform.Version >= 33) {
-        await PermissionsAndroid.request(
-          PermissionsAndroid.PERMISSIONS.POST_NOTIFICATIONS
-        );
+      try {
+        await TrackPlayer.setupPlayer({
+          autoHandleInterruptions: true,
+        });
+
+        await TrackPlayer.updateOptions({
+          capabilities: [
+            Capability.Play,
+            Capability.Pause,
+            Capability.SkipToNext,
+            Capability.SkipToPrevious,
+            Capability.SeekTo,
+          ],
+          compactCapabilities: [
+            Capability.Play,
+            Capability.Pause,
+            Capability.SkipToNext,
+          ],
+          progressUpdateEventInterval: 1,
+        });
+
+        setIsReady(true);
+
+        if (Platform.OS === 'android' && Platform.Version >= 33) {
+          PermissionsAndroid.request(
+            PermissionsAndroid.PERMISSIONS.POST_NOTIFICATIONS
+          ).catch(() => {});
+        }
+      } catch (error) {
+        setSetupError(error instanceof Error ? error.message : String(error));
       }
-
-      await TrackPlayer.setupPlayer({
-        autoHandleInterruptions: true,
-      });
-
-      await TrackPlayer.updateOptions({
-        capabilities: [
-          Capability.Play,
-          Capability.Pause,
-          Capability.SkipToNext,
-          Capability.SkipToPrevious,
-          Capability.SeekTo,
-        ],
-        compactCapabilities: [
-          Capability.Play,
-          Capability.Pause,
-          Capability.SkipToNext,
-        ],
-        progressUpdateEventInterval: 1,
-      });
-
-      setIsReady(true);
     }
 
     setup();
@@ -49,7 +53,9 @@ export default function App() {
   if (!isReady) {
     return (
       <View style={{ flex: 1, backgroundColor: '#0a0a0f', justifyContent: 'center', alignItems: 'center' }}>
-        <Text style={{ color: '#fff', fontSize: 16, letterSpacing: 1 }}>INITIALIZING PLAYER...</Text>
+        <Text style={{ color: '#fff', fontSize: 16, letterSpacing: 1 }}>
+          {setupError || 'INITIALIZING PLAYER...'}
+        </Text>
       </View>
     );
   }

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, TouchableOpacity, StyleSheet } from 'react-native';
 import TrackPlayer from 'react-native-track-player';
-import Icon from 'react-native-vector-icons/MaterialIcons';
+import { MaterialIcons as Icon } from '@react-native-vector-icons/material-icons';
 
 export default function MusicControls({ isPlaying }) {
   const [shuffle, setShuffle] = useState(false);

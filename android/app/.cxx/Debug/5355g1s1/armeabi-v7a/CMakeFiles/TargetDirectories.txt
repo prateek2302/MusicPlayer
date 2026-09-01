@@ -1,0 +1,15 @@
+/Users/prateek/Downloads/MusicPlayer/android/app/.cxx/Debug/5355g1s1/armeabi-v7a/CMakeFiles/appmodules.dir
+/Users/prateek/Downloads/MusicPlayer/android/app/.cxx/Debug/5355g1s1/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/prateek/Downloads/MusicPlayer/android/app/.cxx/Debug/5355g1s1/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/prateek/Downloads/MusicPlayer/android/app/.cxx/Debug/5355g1s1/armeabi-v7a/RNCSlider_autolinked_build/CMakeFiles/react_codegen_RNCSlider.dir
+/Users/prateek/Downloads/MusicPlayer/android/app/.cxx/Debug/5355g1s1/armeabi-v7a/RNCSlider_autolinked_build/CMakeFiles/edit_cache.dir
+/Users/prateek/Downloads/MusicPlayer/android/app/.cxx/Debug/5355g1s1/armeabi-v7a/RNCSlider_autolinked_build/CMakeFiles/rebuild_cache.dir
+/Users/prateek/Downloads/MusicPlayer/android/app/.cxx/Debug/5355g1s1/armeabi-v7a/VectorIconsIonicons_autolinked_build/CMakeFiles/react_codegen_VectorIconsIonicons.dir
+/Users/prateek/Downloads/MusicPlayer/android/app/.cxx/Debug/5355g1s1/armeabi-v7a/VectorIconsIonicons_autolinked_build/CMakeFiles/edit_cache.dir
+/Users/prateek/Downloads/MusicPlayer/android/app/.cxx/Debug/5355g1s1/armeabi-v7a/VectorIconsIonicons_autolinked_build/CMakeFiles/rebuild_cache.dir
+/Users/prateek/Downloads/MusicPlayer/android/app/.cxx/Debug/5355g1s1/armeabi-v7a/safeareacontext_autolinked_build/CMakeFiles/react_codegen_safeareacontext.dir
+/Users/prateek/Downloads/MusicPlayer/android/app/.cxx/Debug/5355g1s1/armeabi-v7a/safeareacontext_autolinked_build/CMakeFiles/edit_cache.dir
+/Users/prateek/Downloads/MusicPlayer/android/app/.cxx/Debug/5355g1s1/armeabi-v7a/safeareacontext_autolinked_build/CMakeFiles/rebuild_cache.dir
+/Users/prateek/Downloads/MusicPlayer/android/app/.cxx/Debug/5355g1s1/armeabi-v7a/RNVectorIconsSpec_autolinked_build/CMakeFiles/react_codegen_RNVectorIconsSpec.dir
+/Users/prateek/Downloads/MusicPlayer/android/app/.cxx/Debug/5355g1s1/armeabi-v7a/RNVectorIconsSpec_autolinked_build/CMakeFiles/edit_cache.dir
+/Users/prateek/Downloads/MusicPlayer/android/app/.cxx/Debug/5355g1s1/armeabi-v7a/RNVectorIconsSpec_autolinked_build/CMakeFiles/rebuild_cache.dir
